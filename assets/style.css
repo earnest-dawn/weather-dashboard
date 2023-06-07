@@ -1,0 +1,25 @@
+:root {
+  --col1: #3463bc;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: -webkit-linear-gradient(right, #20084a, #3463bc);
+  background: -moz-linear-gradient(right, #20084a, #3463bc);
+  background: linear-gradient(to left, #20084a, #3463bc);
+  color: white;
+  padding: 20px;
+  font-size: x-large;
+}
+
+.searchLabel {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.searchForm {
+  width: 300px;
+  padding: 10px;
+}
